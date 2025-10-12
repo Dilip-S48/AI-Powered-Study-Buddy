@@ -1,0 +1,8 @@
+# Ignore the Streamlit secrets file to protect API keys
+.streamlit/secrets.toml
+
+# Ignore the Python virtual environment folder
+venv/
+
+# Ignore Python cache files
+__pycache__/
