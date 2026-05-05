@@ -355,3 +355,4 @@ with tab5:
                         st.session_state.activity_history = [i for i in st.session_state.activity_history if i.get('id') != item_id]
                         save_history(ACTIVITY_HISTORY_FILE, st.session_state.activity_history)
                         st.rerun()
+                        
