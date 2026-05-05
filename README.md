@@ -42,25 +42,17 @@ Python 3.11 or higher installed.
 A free API key from Groq.
 2. Installation & Setup
 1. Clone the repository:
-code
-Bash
 git clone https://github.com/your-username/ai-study-buddy.git
 cd ai-study-buddy
 2. Create and activate a virtual environment:
 This is a best practice to keep project dependencies isolated.
 On Windows:
-code
-Bash
 python -m venv venv
 .\venv\Scripts\activate
 On macOS & Linux:
-code
-Bash
 python3 -m venv venv
 source venv/bin/activate
 3. Install the required libraries:
-code
-Bash
 pip install -r requirements.txt
 3. Configuration
 The application requires an API key to connect to the Groq service.
@@ -69,19 +61,15 @@ Create a folder named .streamlit in the root of your project directory.
 Inside the .streamlit folder, create a file named secrets.toml.
 2. Add your API key to the file:
 Open secrets.toml and add your Groq API key in the following format:
-code
-Toml
 GROQ_API_KEY = "gsk_YourSecretGroqApiKeyHere"
 
 4. Running the Application
 Once the setup and configuration are complete, you can run the app with a single command:
-code
-Bash
 python -m streamlit run app.py
 Your web browser should automatically open to the application's local URL.
+
 📁 Project Structure
-code
-Code
+
 AI-Study-Buddy/
 ├── .streamlit/
 │   └── secrets.toml      # Your secret API key (you create this)
